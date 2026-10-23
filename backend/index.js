@@ -33,7 +33,7 @@ app.use(express.json());
 
 // Configure CORS with more permissive settings for development
 app.use(cors({
-  origin: ['http://localhost:8080', 'http://192.168.41.147:8080', 'http://localhost:5173', 'https://mind-ease-eta.vercel.app', 'https://psyco.onrender.com'],
+  origin: ['http://localhost:8080', 'http://192.168.41.147:8080', 'http://localhost:5173', 'https://mind-ease-eta.vercel.app', 'https://mind-ease-backend-gl71.onrender.com/'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'x-auth-token', 'Authorization'],
   credentials: true // Allow cookies to be sent with requests
