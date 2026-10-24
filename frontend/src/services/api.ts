@@ -1,7 +1,7 @@
 
 import { getToken, getAuthHeader } from '@/utils/auth';
 
-const API_URL = 'https://psyco.onrender.com';
+const API_URL = import.meta.env.VITE_API_URL;
 
 // Helper function to log requests
 const logRequest = (method: string, endpoint: string, headers: any) => {
